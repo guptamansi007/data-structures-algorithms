@@ -2,6 +2,10 @@
 # Reference : https://www.geeksforgeeks.org/python-print-common-elements-two-lists/
 class CommonElementInSortedArray:
 
+    """
+        Time complexity: O(N+M)
+        Space complexity: O(1)
+    """
     @staticmethod
     def find_common_elements(a, b):
 
