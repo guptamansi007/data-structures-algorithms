@@ -17,7 +17,7 @@ def checkPrime(num):
         print(num," is Non Prime Num")
 
 def driver():
-    num = -8
+    num = 178
     checkPrime(num)
 
 driver()
