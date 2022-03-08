@@ -1,7 +1,13 @@
+# Find the non-repeating character in the given string
+"""
+   Time complexity: 0(N)
+   Space complexity: O(N) -> to be verified
+"""
+
 def NonRepeating(str):
 
-
     count = {}
+    result = []
 
     for c in str:
         if c not in count:
@@ -9,13 +15,14 @@ def NonRepeating(str):
         else:
             count[c] = count[c] + 1
 
-    if count[c] == 1:
-        return c
+    for c in str:
+        if count[c] == 1:
+            return c
 
 
 def driver():
-    str = "abababccd"
-    print ("non repeating character is :",NonRepeating(str))
+    str = "abdabb"
+    print ("Non Repeating Character is :",NonRepeating(str))
 
 
 driver()
