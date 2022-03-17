@@ -23,5 +23,5 @@ def findPair(a, x):
 
 
 a = [1, 2, 4, 7, 9, 10, 5]
-x = 19
+x = 9
 findPair(a, x)
